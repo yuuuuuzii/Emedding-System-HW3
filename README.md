@@ -43,4 +43,4 @@ BLE stores multi-byte values in little-endian order, so `0x0002` is written as t
 
 The CCCD has no fixed handle; it usually sits right after the characteristic's value attribute. So the program looks for it among the descriptors between the characteristic's handle and the end of the service, instead of hard-coding a handle.
 
-![BLE Tool server log](docs/server_log.jpg)
+![BLE Tool server log](server_log.jpg)
